@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prestigious School</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="school-crest.png" alt="School Crest">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li class="dropdown">
+                <a href="#academics">Academics</a>
+                <ul class="dropdown-content">
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                </ul>
+            </li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li class="dropdown">
+                <a href="#student-life">Student Life</a>
+                <ul class="dropdown-content">
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#arts">Arts & Culture</a></li>
+                    <li><a href="#clubs">Clubs & Activities</a></li>
+                </ul>
+            </li>
+            <li><a href="#news-events">News & Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search">
+            <i class="search-icon">🔍</i>
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="campus-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="hero-overlay">
+                <h1>Welcome to Prestigious School</h1>
+                <p>Where Luxury Meets Fun and Learning</p>
+                <a href="#about" class="btn">Learn More</a>
+                <a href="#admissions" class="btn">Admissions</a>
+                <a href="#tour" class="btn">Virtual Tour</a>
+            </div>
+        </div>
+    </header>
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Welcome to Prestigious School, where we blend luxury, fun, and learning to create an unforgettable academic
+            experience.</p>
+        <div class="about-icons">
+            <div class="icon">
+                <img src="icon-academics.png" alt="Academics Icon">
+                <h3>Academics</h3>
+            </div>
+            <div class="icon">
+                <img src="icon-sports.png" alt="Sports Icon">
+                <h3>Sports</h3>
+            </div>
+            <div class="icon">
+                <img src="icon-arts.png" alt="Arts Icon">
+                <h3>Arts & Culture</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="section">
+        <h2>Admissions</h2>
+        <p>Join our prestigious institution by following the easy steps below. Get ready for a transformative
+            educational experience!</p>
+        <div class="admissions-steps">
+            <div class="step">
+                <h3>Step 1: Application</h3>
+                <p>Fill out our online application form.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2: Interview</h3>
+                <p>Schedule an interview with our admissions team.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3: Enrollment</h3>
+                <p>Receive confirmation and prepare for your first day.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Life Section -->
+    <section id="student-life" class="section">
+        <h2>Student Life</h2>
+        <div class="student-life-slider">
+            <div class="slide">
+                <img src="students-event.jpeg" alt="Student Event">
+                <p>Exciting Events and Activities</p>
+            </div>
+            <div class="slide">
+                <img src="students-sports.jpg" alt="Students Playing Sports">
+                <p>Competitive Sports Programs</p>
+            </div>
+            <div class="slide">
+                <img src="students-arts.jpeg" alt="Student Art Exhibition">
+                <p>Creative Arts and Cultural Festivals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <!-- Achievement Card 1 -->
+                <div class="achievement-card">
+                    <div class="icon">
+                        <img src="icon-academics.png" alt="Academic Performance">
+                    </div>
+                    <h3>Top Academic Performance</h3>
+                    <p>Recognized as one of the leading schools for academic excellence.</p>
+                </div>
+
+                <!-- Achievement Card 2 -->
+                <div class="achievement-card">
+                    <div class="icon">
+                        <img src="sports-trophy.jpeg" alt="Sports Champions">
+                    </div>
+                    <h3>National Sports Champions</h3>
+                    <p>Winners of multiple national sports championships.</p>
+                </div>
+
+                <!-- Achievement Card 3 -->
+                <div class="achievement-card">
+                    <div class="icon">
+                        <img src="art-award.jpeg" alt="Art & Design Awards">
+                    </div>
+                    <h3>Art & Design Awards</h3>
+                    <p>Celebrated for excellence in art and design at national and international levels.</p>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <p>Scroll to explore more</p>
+                <span class="scroll-arrow">▼</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- News & Events Section -->
+    <section id="news-events" class="news-events-section">
+        <div class="container">
+            <h2 class="section-title">News & Events</h2>
+
+            <!-- News Ticker -->
+            <div class="news-ticker">
+                <div class="ticker-content">
+                    <span class="news-icon">📰</span>
+                    <span class="news-text">Breaking News: Prestigious School wins award for Best Campus
+                        Environment!</span>
+                    <span class="news-icon">📣</span>
+                    <span class="news-text">Upcoming: Join us for the Fall Festival on October 20!</span>
+                </div>
+            </div>
+
+            <!-- Upcoming Events -->
+            <div class="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <div class="event-date">October 20</div>
+                    <h3>Fall Festival</h3>
+                    <p>Join us for a fun-filled day with games, food, and activities!</p>
+                    <button class="rsvp-button">RSVP</button>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <div class="event-date">November 10</div>
+                    <h3>Science Fair</h3>
+                    <p>Come see innovative projects created by our talented students.</p>
+                    <button class="rsvp-button">RSVP</button>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <div class="event-date">December 5</div>
+                    <h3>Winter Concert</h3>
+                    <p>Enjoy a night of festive music performed by our school choir.</p>
+                    <button class="rsvp-button">RSVP</button>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <p>Scroll to explore more</p>
+                <span class="scroll-arrow">▼</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Meet the Teachers Section -->
+    <section id="meet-teachers" class="section">
+        <h2>Meet the Teachers</h2>
+        <div class="teachers-grid">
+            <div class="teacher-card">
+                <img src="teacher1.jpeg" alt="Teacher Image">
+                <div class="teacher-info">
+                    <h3>Mr. John Smith</h3>
+                    <p>Science Department</p>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="teacher2.jpeg" alt="Teacher Image">
+                <div class="teacher-info">
+                    <h3>Ms. Jane Doe</h3>
+                    <p>Arts Department</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="icon-facebook.png" alt="Facebook Icon"></a>
+            <a href="#"><img src="icon-instagram.jpeg" alt="Instagram Icon"></a>
+            <a href="#"><img src="icon-youtube.png" alt="YouTube Icon"></a>
+        </div>
+        <div class="contact-info">
+            <p>123 Luxury School Lane, Prestige City, Country</p>
+            <p>Email: info@prestigiousschool.com | Phone: (123) 456-7890</p>
+        </div>
+        <div class="map">
+            <img src="map-image.jpeg" alt="Map Image">
+        </div>
+    </footer>
+
+</body>
+
+</html>
